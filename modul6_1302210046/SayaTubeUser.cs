@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,8 @@ namespace modul6_1302210046
 
         public SayaTubeUser(string username)
         {
+            Contract.Requires(Username != null && Username.Length <= 100);
+            Contract.Requires(uploadedVideos != null);
             this.Username = username;
             this.uploadedVideos= new List<SayaTubeUser>();
         }
@@ -38,7 +41,7 @@ namespace modul6_1302210046
             Console.WriteLine("User: " + Username);
             for(int i = 0; i < uploadedVideos.Count; i++)
             {
-                Console.WriteLine("Review Film " + uploadedVideos[i].title
+                Console.WriteLine("Review Film " + uploadedVideos[i]
                     + " oleh " + Username);
             }
         }

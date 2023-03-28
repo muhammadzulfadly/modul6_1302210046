@@ -14,6 +14,8 @@ namespace modul6_1302210046
             SayaTubeVideo stv = new SayaTubeVideo("Video");
 
             stu.PrintAllVideoPlayCount();
+            stu.GetTotalVideosPlayCount();
+            stv.PrintVideoDetails();
         }
     }
 }
