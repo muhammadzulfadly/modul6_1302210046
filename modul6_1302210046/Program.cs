@@ -10,6 +10,10 @@ namespace modul6_1302210046
     {
         static void Main(string[] args)
         {
+            SayaTubeUser stu = new SayaTubeUser("Zulfadly");
+            SayaTubeVideo stv = new SayaTubeVideo("Video");
+
+            stu.PrintAllVideoPlayCount();
         }
     }
 }

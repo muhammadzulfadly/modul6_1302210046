@@ -1,0 +1,3 @@
+D:\modul6_1302210046\modul6_1302210046\obj\Debug\modul6_1302210046.csproj.AssemblyReference.cache
+D:\modul6_1302210046\modul6_1302210046\obj\Debug\modul6_1302210046.csproj.SuggestedBindingRedirects.cache
+D:\modul6_1302210046\modul6_1302210046\obj\Debug\modul6_1302210046.csproj.CoreCompileInputs.cache
